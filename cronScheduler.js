@@ -1,7 +1,7 @@
 
 import cron from 'cron';
-// Function to log messages if verbose option is enabled
 
+// Thank you ChatGPT
 export async function cronSchedule(cronValue, callback) {
     // Validate cron job value and set up cron job
     // Assuming cron job value is always in format <number><unit>, like 2h, 1d, 30m
@@ -24,7 +24,7 @@ export async function cronSchedule(cronValue, callback) {
   }
   // Set up cron job
   const job = new cron.CronJob(cronSchedule, () => {
-    console.log('Cron job triggered. Running your task here...');
+    console.log(`Cron job triggered. Running your task named ${callback.name} ...`);
     // Call your function or task to run here
 		callback()
   });

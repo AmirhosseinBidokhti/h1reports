@@ -1,12 +1,9 @@
 import { JSONFilePreset } from 'lowdb/node'
 import { program } from 'commander';
-import cron from 'cron';
-
-import { Logger, sendNotification } from './message.js';
 
 import { checkAndInsert, seeder } from './fetcher.js';
 import { cronSchedule } from './cronScheduler.js';
-
+import { Logger } from './message.js';
 
 program
   .option('-i, --init', 'Run seeder function')
@@ -30,10 +27,9 @@ async function main() {
         logger.info('Pleaser provide your cronjob in order to run the tool.')
         process.exit(1)
     }
-
 }
 
-main()
+main();
 
 
 

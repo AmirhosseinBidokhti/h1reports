@@ -1,33 +1,4 @@
-/*
-
-Misconfigurated login page able to lock login action for any account without user interaction
-
-👉 https://hackerone.com/reports/1582778
-
-
-
-
-
-
-🔹 Severity: Critical
-🔹 Reported To: Reddit
-🔹 Reported By: #h1ugroon
-🔹 State: ⚪️ Informative
-🔹 Disclosed: June 6, 2022, 11:10pm (UTC)
-
-report.url
-report.disclosed_at
-report.title
-report.substate
-team.handle
-reporter.username
-severity_rating
-total_awarded_amount
-cwe
-*/
-
 import got from 'got';
-
 
 const messageEmojis = {
     "report.title": "✍🏻",
@@ -40,6 +11,7 @@ const messageEmojis = {
     "report.disclosed_at": "📆",
 }
 
+// Thank you ChatGPT
 function reduceObject(input1, input2) {
     const reducedObject = {};
   
@@ -53,6 +25,7 @@ function reduceObject(input1, input2) {
     return reducedObject;
   }
 
+// Thank you ChatGPT
 function objectToString(obj) {
   let result = '';
   for (const key in obj) {
@@ -64,12 +37,10 @@ function objectToString(obj) {
   return result;
 }
 
-
 export class Logger {
     constructor(verbose) {
         this.verbose = verbose
     }
-
     info(message) {
         if (this.verbose) {
             console.log(`[+]: ${message}`);
@@ -80,29 +51,24 @@ export class Logger {
         const messageObj = reduceObject(message, messageEmojis);
         return objectToString(messageObj)
     }
-
-
 }
-
 
 export async function sendNotification(message, channelID, botToken) {
     try {
         const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${channelID}&text=${encodeURIComponent(message)}`;
 
+        console.log(`[+] Sending notification to telegram...`);
+
         const response = await got.get(apiUrl);
-        console.log("response", response);
 
         if (response.statusCode === 200) {
-            console.log('Notification sent successfully!');
+            console.log('[+] Notification sent successfully!');
         } else {
-            throw new Error(`Failed to send notification. Status code: ${response}`);
+            throw new Error(`[-] Failed to send notification. Status code: ${response}`);
         }
     } catch (error) {
         console.log(error);
-        console.error('Error sending notification:', error.message);
+        console.error('[-] Error sending notification: ', error.message);
     }
 }
 
-// Example usage
-const message = 'Hello from your Node.js application!';
-//sendNotification(message, TELEGRAM_CHANNEL_ID, TELEGRAM_BOT_TOKEN);

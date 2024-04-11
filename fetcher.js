@@ -6,9 +6,9 @@ import 'dotenv/config'
 
 let {TELEGRAM_CHANNEL_ID, TELEGRAM_BOT_TOKEN} = process.env
 
-
 async function getLatestDisclosedReport () {
   try {
+    console.log(`[+] Retrieving latest disclosed reports from hackerone.com`);
     const response = await got.post('https://hackerone.com/graphql', {
       headers: {
         'accept': '*/*',
@@ -44,18 +44,14 @@ async function getLatestDisclosedReport () {
       },
     });
 
-    return response.body
+    if (response.body) {
+      console.log('[+] 100 Recent disclosed reports recieved');
+      return response.body
+    }
   } catch (error) {
-    console.error(error);
+    console.error('[-] Error fetching latest reports', error.message);
   }
-
 }
-
-// later
-async function readAllReports() {
-
-}
-
 
 export async function checkAndInsert() {
   // get latest disclosed reports from hackerone
@@ -70,41 +66,33 @@ export async function checkAndInsert() {
   const newReports = latestDisclosedReports.filter(newItem => !existingReports.some(existingItem => existingItem.id === newItem.id));
 
   if (newReports.length > 0) {
-    console.log('new ones', newReports.length);
+    console.log('[+] New report(s) found: ', newReports.length);
     newReports.map(newReport => {
       existingReports.push(newReport);
       sendNotification(new Logger().notifFormatter(newReport), TELEGRAM_CHANNEL_ID, TELEGRAM_BOT_TOKEN);
     });
+    console.log(`[+] Updating the database with newly retrieved report(s)`);
     await db.write();
+    console.log(`[+] Update done!`);
     // todo: separate to other function and area. more atomic
-    
+  } else {
+    console.log(`[+] No new reports yet`);
+    return;
+    //process.exit(1) this will cause quit in cronjob obviously. 
+
   }
-
 }
-
 
 export async function seeder() {
   // if database does not exist, create one and populate it with current discloused reports
   // maybe add them to telegram too or simply does this with last 100 reports
+
+  console.log('[+] Calling the seeder function...');
   let latestReports = await getLatestDisclosedReport();
   latestReports = JSON.parse(latestReports).data.search.nodes
 
   const db = await JSONFilePreset('reportsDB.json', latestReports)
   let res = await db.write()
-
+  console.log(`[+] Seeding completed`);
 }
 
-
-
-
-
-
-/*Limits
-Lowdb doesn't support Node's cluster module.
-
-If you have large JavaScript objects (~10-100MB) you may hit some performance issues. This is because whenever you call db.write, the whole db.data is serialized using JSON.stringify and written to storage.
-
-Depending on your use case, this can be fine or not. It can be mitigated by doing batch operations and calling db.write only when you need it.
-
-If you plan to scale, it's highly recommended to use databases like PostgreSQL or MongoDB instead.
-*/
