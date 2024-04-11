@@ -11,3 +11,9 @@
         ommander proper handling of cli options and inputs
 
 - typescriptfy the project
+
+- deploy to vps for @h1reports
+    - pm2?
+    - crontab?
+    - systemcdl?
+    - forever?
