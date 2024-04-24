@@ -4641,5 +4641,743 @@
     "submitted_at": "2024-02-02T21:16:35.025Z",
     "disclosed": true,
     "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIwMTQ5NTU=",
+    "_id": "2014955",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTIyMDA2NA==",
+      "name": "Alhasan Mohamed",
+      "username": "maxdha",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Reflected",
+    "severity_rating": "Low",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMDE0OTU1",
+      "databaseId": "2014955",
+      "title": "#1 XSS on watchdocs.indriverapp.com",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2014955",
+      "disclosed_at": "2024-04-11T09:01:27.222Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzI5Nw==",
+        "hacktivity_summary": "The security vulnerability found on watchdocs.indriverapp.com allowed for cross-site scripting (XSS) attacks. The vulnerability was triggered by crafting a specific URL that executed arbitrary JavaScript code when accessed by users.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 8,
+    "team": {
+      "handle": "indrive",
+      "name": "inDrive",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/765s9sszvp9zyt9qwkeaa52vvkf3/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/indrive",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU4ODU3",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 100,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-11T09:01:27.410Z",
+    "submitted_at": "2023-06-06T17:18:15.473Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIwMTUwNzQ=",
+    "_id": "2015074",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTIyMDA2NA==",
+      "name": "Alhasan Mohamed",
+      "username": "maxdha",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Reflected",
+    "severity_rating": null,
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMDE1MDc0",
+      "databaseId": "2015074",
+      "title": "#2 XSS on watchdocs.indriverapp.com",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2015074",
+      "disclosed_at": "2024-04-11T08:33:21.051Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzI5Ng==",
+        "hacktivity_summary": "An XSS vulnerability was discovered on watchdocs.indriverapp.com. The vulnerability allowed execution of JavaScript on the user's browser.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 7,
+    "team": {
+      "handle": "indrive",
+      "name": "inDrive",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/765s9sszvp9zyt9qwkeaa52vvkf3/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/indrive",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU4ODU3",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 100,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-11T08:33:21.296Z",
+    "submitted_at": "2023-06-06T20:12:30.611Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIwMjgyNjU=",
+    "_id": "2028265",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTIyMDA2NA==",
+      "name": "Alhasan Mohamed",
+      "username": "maxdha",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Reflected",
+    "severity_rating": "Low",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMDI4MjY1",
+      "databaseId": "2028265",
+      "title": "#3 XSS on watchdocs.indriverapp.com",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2028265",
+      "disclosed_at": "2024-04-11T08:33:03.409Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzI5NQ==",
+        "hacktivity_summary": "A cross-site scripting (XSS) vulnerability was discovered on the watchdocs.indriverapp.com website. The vulnerability allowed an attacker to execute arbitrary JavaScript code in the victim's browser by injecting malicious input into the URL parameters.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 6,
+    "team": {
+      "handle": "indrive",
+      "name": "inDrive",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/765s9sszvp9zyt9qwkeaa52vvkf3/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/indrive",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU4ODU3",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 234,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-11T08:33:03.578Z",
+    "submitted_at": "2023-06-16T01:50:00.169Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIyMjMwNDE=",
+    "_id": "2223041",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTMxMjI2NQ==",
+      "name": "ahmadalzuriqi ",
+      "username": "fo00x",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Improper Authentication - Generic",
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMjIzMDQx",
+      "databaseId": "2223041",
+      "title": "Unprotected Atlantis Server at https://152.70.█.█",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2223041",
+      "disclosed_at": "2024-04-11T02:44:55.174Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzI5NA==",
+        "hacktivity_summary": "The Atlantis test server at https://152.70.█.█ was found to be exposed without protection. Atlantis is an application used to automate Terraform via pull requests. The issue was identified and resolved by restricting access to the Atlantis service.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 4,
+    "team": {
+      "handle": "8x8",
+      "name": "8x8",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/000/032/665/6299e752b6c0a29c3438dc907e8d836e590576f5_original.png/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/8x8",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpWdWxuZXJhYmlsaXR5RGlzY2xvc3VyZVByb2dyYW0vMzI2NjU=",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-11T02:44:55.342Z",
+    "submitted_at": "2023-10-23T21:34:02.303Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzI0NTMzMjI=",
+    "_id": "2453322",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTU0",
+      "name": "Bartek Nowotarski",
+      "username": "bart",
+      "__typename": "User"
+    },
+    "cve_ids": [
+      "CVE-2024-27316"
+    ],
+    "cwe": "Uncontrolled Resource Consumption",
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yNDUzMzIy",
+      "databaseId": "2453322",
+      "title": "Apache HTTP Server: HTTP/2 DoS by memory exhaustion on endless continuation frames",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2453322",
+      "disclosed_at": "2024-04-24T18:29:50.989Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMxMw==",
+        "hacktivity_summary": "The Apache HTTP Server vulnerability CVE-2024-27316 was recently discovered. HTTP/2 incoming headers exceeding the limit were temporarily buffered in nghttp2 to generate an HTTP 413 response. However, if the client did not stop sending headers, this led to memory exhaustion. The vulnerability was reported by Bartek Nowotarski.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 2,
+    "team": {
+      "handle": "ibb",
+      "name": "Internet Bug Bounty",
+      "medium_profile_picture": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/v0qywgoh5hm4cbhuanu8mqdtowhr/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937?response-content-disposition=inline%3B%20filename%3D%22ibb%20revision%205%20copy.png%22%3B%20filename%2A%3DUTF-8%27%27ibb%2520revision%25205%2520copy.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQ6QFDS5WY%2F20240424%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240424T190601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLXdlc3QtMiJIMEYCIQDPH2PcxxDKKEtBHZIw4IpujA2LRubY9w8a44MuVGsHngIhAOs17eCaJAyn8IKzcaBLMujdu6U8aytca5FPdryE7DHAKrsFCJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDEzNjE5Mjc0ODQ5IgwK2%2FqccbxGxqpq0TAqjwXF6uud0Vn%2FRJMMlITRNXmF9c7g73811jpBUNAx65iO0nRxd81ojU1wppwn44WqQL174tjzLtTXM2L4kGXkD%2BQKXIZDITv6QSSkeohXndJBl57JvvlkF%2FnQiG%2Bi4llC%2B6X6YwR3WGE4n7k2jzMlzOMKbTPwwSWwPytsb0WAhUSeaqUxN81KSdSzbNe%2BdwllaJdvMd5qXar50dF1tz222Pz12Q%2B4D37XrboLRuL07NvSZ8GphuWZuHhIiQdY29OGjNSBp6x7oqBeOlZFz86pgVcRuwf6xuPcCheHx%2FcfCaIoFMtqGObiIyVZE0H92mCxgPzCzvTCvKXsddGNpMqiMxEeNdQCoRuxMUoWCZAtf2UC0o8oQg%2FtnxXCAgScNgNoi6bpN86VVbU3v2fD1F9U4nrqmLK65UJrWq9Gsi%2BC25xvOUhB82ovH9Wfi2fdp3U1z7rqZTxbgW7ovfw6CiXc8H1LNNvb1uMG0KN%2BmfzOa3j09RLahzF4er05O1QwXjm1QpkaqCjU%2Bq8FRy%2B6jS%2BxdGgyn3Rl83VH1KuSA1R21tzpjjDA%2FN5ZoaqITlVicT6P96n9ZsDBqviImSA3Jp0F1Z4r8tO1ThHuZ5OepfkKuzi99pFru7KkR2tBtqPJD2hKk%2Bsx25%2Fkf9t4%2BqrGTFZKTxzWes2haSYwtqQgwQw1Y%2B1hRe98i9%2Fy3yxYwg91G45uVdgz48dXCt1D%2FEIACPkaq3o8hEvaclWlduop2xZK89%2FOjMR2IF%2BccGo9t%2FtdU48q7IqG9mb%2FtShJqogFSD%2B6oh7nd32H3G0%2F3TUxnXwjt0oamOQ6Z1ShiwBxQi5KvaiGsan%2FBJbrgOVhlIrXPAfXAOy98irWX62csmII7lKx3zkkMM%2BdpbEGOrAB42QyywzBn0nTErayvfMM0tPiesP0PEqs7I%2FV%2BpNl0HhPpSQ6qcXHFP5L0al4jZUY4t2q9uj8UTGy0%2FQtSqjXYB1HqiPoGwmXecFCJLJ7wGSKFwqOAxwkRnXdbXVCE%2B328E3D3sbNspsCJpUxW%2F2BqgC29mQ8bLr3L%2FZW0Iy6O9OZwG7bVPLSAneIIRuDKaZXIOWEy1JPU3GgO2WMaCyFJ9TzurDDW2Bn6DudkMDerOI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9b47bab0c3066089f3a6005cc42bb8e456b3f2ccab9004eec412444c95274ae9",
+      "url": "https://hackerone.com/ibb",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU0MzQ5",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 2580,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-24T18:29:51.961Z",
+    "submitted_at": "2024-04-08T20:33:40.580Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIwOTA5NjQ=",
+    "_id": "2090964",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjY5NjY4NQ==",
+      "name": "hasan sheet",
+      "username": "hassan_sheet",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Reflected",
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMDkwOTY0",
+      "databaseId": "2090964",
+      "title": "RXSS in hidden parameter",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2090964",
+      "disclosed_at": "2024-04-23T13:48:32.123Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMxMg==",
+        "hacktivity_summary": "RXSS in hidden parameter was reported to IBM, analyzed, and has been remediated. The vulnerability was a reflected cross-site scripting issue found in a hidden parameter.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 20,
+    "team": {
+      "handle": "ibm",
+      "name": "IBM",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/000/002/060/c9c3633edc1081446038c76237344b51696334da_original.jpg/f4a495c04fdb224bac8ec64587537e511aa8c4925e7955bee0a19e0ed7d891dc",
+      "url": "https://hackerone.com/ibm",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpWdWxuZXJhYmlsaXR5RGlzY2xvc3VyZVByb2dyYW0vMjA2MA==",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-23T13:48:32.203Z",
+    "submitted_at": "2023-07-31T18:54:06.529Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzI0Njc5OTk=",
+    "_id": "2467999",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjU4NA==",
+      "name": "Griffin",
+      "username": "griffinf",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Insecure Storage of Sensitive Information",
+    "severity_rating": "Critical",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yNDY3OTk5",
+      "databaseId": "2467999",
+      "title": "Jira Credential Disclosure within Mozilla Slack",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2467999",
+      "disclosed_at": "2024-04-23T12:13:25.734Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMxMQ==",
+        "hacktivity_summary": "The Jira admin API keys were disclosed within a Mozilla Slack channel by a staff member. The exposed credentials allowed for the verification of the user's elevated privileges, including being a Jira Administrator, Administrator, and Jira Service Desk user.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 21,
+    "team": {
+      "handle": "mozilla_core_services",
+      "name": "Mozilla",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/0p8e6gg8xoy45dhjxs5wh4iti6k8/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/mozilla_core_services",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzYxMjM2",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-23T12:13:25.872Z",
+    "submitted_at": "2024-04-17T17:46:50.781Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzI0NDI2MTM=",
+    "_id": "2442613",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjU0ODY0NQ==",
+      "name": "w0x42",
+      "username": "w0x42",
+      "__typename": "User"
+    },
+    "cve_ids": [
+      "CVE-2024-2398"
+    ],
+    "cwe": null,
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yNDQyNjEz",
+      "databaseId": "2442613",
+      "title": "CVE-2024-2398: HTTP/2 push headers memory-leak",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2442613",
+      "disclosed_at": "2024-04-22T19:53:50.452Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwOQ==",
+        "hacktivity_summary": "A memory leak was found in libcurl when handling HTTP/2 push headers. The vulnerability was caused by libcurl's failure to properly release the allocated memory when aborting a server push due to the maximum allowed limit being exceeded. This could lead to denial of service due to memory exhaustion.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 21,
+    "team": {
+      "handle": "ibb",
+      "name": "Internet Bug Bounty",
+      "medium_profile_picture": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/v0qywgoh5hm4cbhuanu8mqdtowhr/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937?response-content-disposition=inline%3B%20filename%3D%22ibb%20revision%205%20copy.png%22%3B%20filename%2A%3DUTF-8%27%27ibb%2520revision%25205%2520copy.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQ6QFDS5WY%2F20240424%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240424T190601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLXdlc3QtMiJIMEYCIQDPH2PcxxDKKEtBHZIw4IpujA2LRubY9w8a44MuVGsHngIhAOs17eCaJAyn8IKzcaBLMujdu6U8aytca5FPdryE7DHAKrsFCJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDEzNjE5Mjc0ODQ5IgwK2%2FqccbxGxqpq0TAqjwXF6uud0Vn%2FRJMMlITRNXmF9c7g73811jpBUNAx65iO0nRxd81ojU1wppwn44WqQL174tjzLtTXM2L4kGXkD%2BQKXIZDITv6QSSkeohXndJBl57JvvlkF%2FnQiG%2Bi4llC%2B6X6YwR3WGE4n7k2jzMlzOMKbTPwwSWwPytsb0WAhUSeaqUxN81KSdSzbNe%2BdwllaJdvMd5qXar50dF1tz222Pz12Q%2B4D37XrboLRuL07NvSZ8GphuWZuHhIiQdY29OGjNSBp6x7oqBeOlZFz86pgVcRuwf6xuPcCheHx%2FcfCaIoFMtqGObiIyVZE0H92mCxgPzCzvTCvKXsddGNpMqiMxEeNdQCoRuxMUoWCZAtf2UC0o8oQg%2FtnxXCAgScNgNoi6bpN86VVbU3v2fD1F9U4nrqmLK65UJrWq9Gsi%2BC25xvOUhB82ovH9Wfi2fdp3U1z7rqZTxbgW7ovfw6CiXc8H1LNNvb1uMG0KN%2BmfzOa3j09RLahzF4er05O1QwXjm1QpkaqCjU%2Bq8FRy%2B6jS%2BxdGgyn3Rl83VH1KuSA1R21tzpjjDA%2FN5ZoaqITlVicT6P96n9ZsDBqviImSA3Jp0F1Z4r8tO1ThHuZ5OepfkKuzi99pFru7KkR2tBtqPJD2hKk%2Bsx25%2Fkf9t4%2BqrGTFZKTxzWes2haSYwtqQgwQw1Y%2B1hRe98i9%2Fy3yxYwg91G45uVdgz48dXCt1D%2FEIACPkaq3o8hEvaclWlduop2xZK89%2FOjMR2IF%2BccGo9t%2FtdU48q7IqG9mb%2FtShJqogFSD%2B6oh7nd32H3G0%2F3TUxnXwjt0oamOQ6Z1ShiwBxQi5KvaiGsan%2FBJbrgOVhlIrXPAfXAOy98irWX62csmII7lKx3zkkMM%2BdpbEGOrAB42QyywzBn0nTErayvfMM0tPiesP0PEqs7I%2FV%2BpNl0HhPpSQ6qcXHFP5L0al4jZUY4t2q9uj8UTGy0%2FQtSqjXYB1HqiPoGwmXecFCJLJ7wGSKFwqOAxwkRnXdbXVCE%2B328E3D3sbNspsCJpUxW%2F2BqgC29mQ8bLr3L%2FZW0Iy6O9OZwG7bVPLSAneIIRuDKaZXIOWEy1JPU3GgO2WMaCyFJ9TzurDDW2Bn6DudkMDerOI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9b47bab0c3066089f3a6005cc42bb8e456b3f2ccab9004eec412444c95274ae9",
+      "url": "https://hackerone.com/ibb",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU0MzQ5",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 2580,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-22T19:53:51.740Z",
+    "submitted_at": "2024-03-31T20:25:18.020Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIzMzQ0MDE=",
+    "_id": "2334401",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTU0",
+      "name": "Bartek Nowotarski",
+      "username": "bart",
+      "__typename": "User"
+    },
+    "cve_ids": [
+      "CVE-2024-24549"
+    ],
+    "cwe": "Uncontrolled Resource Consumption",
+    "severity_rating": "High",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMzM0NDAx",
+      "databaseId": "2334401",
+      "title": "Denial of Service caused by HTTP/2 CONTINUATION Flood",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2334401",
+      "disclosed_at": "2024-04-22T19:52:39.534Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwOA==",
+        "hacktivity_summary": "A denial of service vulnerability was discovered in Apache Tomcat versions 11.0.0-M1 to 11.0.0-M16, 10.1.0-M1 to 10.1.18, 9.0.0-M1 to 9.0.85, and 8.5.0 to 8.5.98. The vulnerability was caused by the way Tomcat processed HTTP/2 requests that exceeded configured limits for headers. A fix was released in versions 11.0.0-M17, 10.1.19, 9.0.86, and 8.5.99.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 20,
+    "team": {
+      "handle": "ibb",
+      "name": "Internet Bug Bounty",
+      "medium_profile_picture": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/v0qywgoh5hm4cbhuanu8mqdtowhr/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937?response-content-disposition=inline%3B%20filename%3D%22ibb%20revision%205%20copy.png%22%3B%20filename%2A%3DUTF-8%27%27ibb%2520revision%25205%2520copy.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQ6QFDS5WY%2F20240424%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240424T190601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLXdlc3QtMiJIMEYCIQDPH2PcxxDKKEtBHZIw4IpujA2LRubY9w8a44MuVGsHngIhAOs17eCaJAyn8IKzcaBLMujdu6U8aytca5FPdryE7DHAKrsFCJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDEzNjE5Mjc0ODQ5IgwK2%2FqccbxGxqpq0TAqjwXF6uud0Vn%2FRJMMlITRNXmF9c7g73811jpBUNAx65iO0nRxd81ojU1wppwn44WqQL174tjzLtTXM2L4kGXkD%2BQKXIZDITv6QSSkeohXndJBl57JvvlkF%2FnQiG%2Bi4llC%2B6X6YwR3WGE4n7k2jzMlzOMKbTPwwSWwPytsb0WAhUSeaqUxN81KSdSzbNe%2BdwllaJdvMd5qXar50dF1tz222Pz12Q%2B4D37XrboLRuL07NvSZ8GphuWZuHhIiQdY29OGjNSBp6x7oqBeOlZFz86pgVcRuwf6xuPcCheHx%2FcfCaIoFMtqGObiIyVZE0H92mCxgPzCzvTCvKXsddGNpMqiMxEeNdQCoRuxMUoWCZAtf2UC0o8oQg%2FtnxXCAgScNgNoi6bpN86VVbU3v2fD1F9U4nrqmLK65UJrWq9Gsi%2BC25xvOUhB82ovH9Wfi2fdp3U1z7rqZTxbgW7ovfw6CiXc8H1LNNvb1uMG0KN%2BmfzOa3j09RLahzF4er05O1QwXjm1QpkaqCjU%2Bq8FRy%2B6jS%2BxdGgyn3Rl83VH1KuSA1R21tzpjjDA%2FN5ZoaqITlVicT6P96n9ZsDBqviImSA3Jp0F1Z4r8tO1ThHuZ5OepfkKuzi99pFru7KkR2tBtqPJD2hKk%2Bsx25%2Fkf9t4%2BqrGTFZKTxzWes2haSYwtqQgwQw1Y%2B1hRe98i9%2Fy3yxYwg91G45uVdgz48dXCt1D%2FEIACPkaq3o8hEvaclWlduop2xZK89%2FOjMR2IF%2BccGo9t%2FtdU48q7IqG9mb%2FtShJqogFSD%2B6oh7nd32H3G0%2F3TUxnXwjt0oamOQ6Z1ShiwBxQi5KvaiGsan%2FBJbrgOVhlIrXPAfXAOy98irWX62csmII7lKx3zkkMM%2BdpbEGOrAB42QyywzBn0nTErayvfMM0tPiesP0PEqs7I%2FV%2BpNl0HhPpSQ6qcXHFP5L0al4jZUY4t2q9uj8UTGy0%2FQtSqjXYB1HqiPoGwmXecFCJLJ7wGSKFwqOAxwkRnXdbXVCE%2B328E3D3sbNspsCJpUxW%2F2BqgC29mQ8bLr3L%2FZW0Iy6O9OZwG7bVPLSAneIIRuDKaZXIOWEy1JPU3GgO2WMaCyFJ9TzurDDW2Bn6DudkMDerOI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9b47bab0c3066089f3a6005cc42bb8e456b3f2ccab9004eec412444c95274ae9",
+      "url": "https://hackerone.com/ibb",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU0MzQ5",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 4860,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-22T19:52:41.414Z",
+    "submitted_at": "2024-01-25T12:51:51.084Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzE4NDI4MDA=",
+    "_id": "1842800",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTkzMDI1",
+      "name": "",
+      "username": "renzi",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Reflected",
+    "severity_rating": "Low",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8xODQyODAw",
+      "databaseId": "1842800",
+      "title": "Adobe Experience Manager 'Childlist selector' - Cross-Site Scripting on cbconnection-stage.adobe.com ",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/1842800",
+      "disclosed_at": "2024-04-22T16:10:48.523Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwNw==",
+        "hacktivity_summary": "We appreciate the collaboration and responsible disclosure of this researcher.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 15,
+    "team": {
+      "handle": "adobe",
+      "name": "Adobe",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/qtwRFSzn2th8Rz52AH2RfhZd/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/adobe",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzM0Nw==",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-22T16:10:51.152Z",
+    "submitted_at": "2023-01-21T22:45:16.789Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIzMzc5Mzg=",
+    "_id": "2337938",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTkxNTE5Mg==",
+      "name": "tuannq",
+      "username": "tuannq_gg",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cleartext Transmission of Sensitive Information",
+    "severity_rating": "Low",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMzM3OTM4",
+      "databaseId": "2337938",
+      "title": "Cleartext Transmission of password via Email",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2337938",
+      "disclosed_at": "2024-04-22T04:21:38.560Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwNg==",
+        "hacktivity_summary": "The password was sent to the user's email in cleartext after successful signup as a fan.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 38,
+    "team": {
+      "handle": "sheer_bbp",
+      "name": "Sheer",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/wldbjh6cehivuuv3q057pqe5bddj/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/sheer_bbp",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU4Njk3",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 200,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-22T04:21:38.788Z",
+    "submitted_at": "2024-01-28T14:57:16.628Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzI0MTAxMTE=",
+    "_id": "2410111",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTI4MDc4NA==",
+      "name": "Adnan Khan",
+      "username": "adnanthekhan",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Information Disclosure",
+    "severity_rating": "High",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yNDEwMTEx",
+      "databaseId": "2410111",
+      "title": "Docker Secret Disclosure via GitHub Actions Cache Poisoning",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2410111",
+      "disclosed_at": "2024-04-20T13:38:53.646Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwNQ==",
+        "hacktivity_summary": "The vulnerability involved the disclosure of Docker secrets through GitHub Actions cache poisoning. The issue was reported and subsequently resolved.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 39,
+    "team": {
+      "handle": "hyperledger",
+      "name": "Hyperledger",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/6t4gcsqjok9cz34ygw17mwkp1tsr/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/hyperledger",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzIyNTIy",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 2000,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-20T13:38:53.801Z",
+    "submitted_at": "2024-03-11T00:54:09.654Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4Lzk2MTE1",
+    "_id": "96115",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjEzMTc=",
+      "name": "",
+      "username": "karan",
+      "__typename": "User"
+    },
+    "cve_ids": [
+      "CVE-2016-9124"
+    ],
+    "cwe": "Violation of Secure Design Principles",
+    "severity_rating": null,
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC85NjExNQ==",
+      "databaseId": "96115",
+      "title": "Login page password-guessing attack",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/96115",
+      "disclosed_at": "2024-04-19T13:50:18.408Z",
+      "report_generated_content": null,
+      "__typename": "Report"
+    },
+    "votes": 28,
+    "team": {
+      "handle": "revive_adserver",
+      "name": "Revive Adserver",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/000/002/367/4f47a5b4a364515d4bbdc17550d67ea5415363cd_original.png/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/revive_adserver",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpWdWxuZXJhYmlsaXR5RGlzY2xvc3VyZVByb2dyYW0vMjM2Nw==",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ManuallyDisclosed",
+    "latest_disclosable_activity_at": "2024-04-19T13:50:18.309Z",
+    "submitted_at": "2015-10-27T16:47:40.969Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzE2Njk3NjQ=",
+    "_id": "1669764",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMTUwNzMzOQ==",
+      "name": "Ilya",
+      "username": "itriedallthenamess",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Cross-site Scripting (XSS) - Stored",
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8xNjY5NzY0",
+      "databaseId": "1669764",
+      "title": "Stored XSS in messages",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/1669764",
+      "disclosed_at": "2024-04-17T06:56:12.618Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzMwMQ==",
+        "hacktivity_summary": "The security issue described involves a stored cross-site scripting (XSS) vulnerability in the message functionality of the system. The vulnerability allowed an attacker to inject malicious code into messages, which could be executed when the victim viewed the message. This resulted in the attacker being able to steal the session ID of the victim's account and log in using it.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 77,
+    "team": {
+      "handle": "sidefx",
+      "name": "SideFX",
+      "medium_profile_picture": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/h7pk4347ap4x2wxyq1bdx1aykzgt/5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937?response-content-disposition=inline%3B%20filename%3D%22logo.png%22%3B%20filename%2A%3DUTF-8%27%27logo.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQ6QFDS5WY%2F20240424%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240424T190601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEsaCXVzLXdlc3QtMiJIMEYCIQDPH2PcxxDKKEtBHZIw4IpujA2LRubY9w8a44MuVGsHngIhAOs17eCaJAyn8IKzcaBLMujdu6U8aytca5FPdryE7DHAKrsFCJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDEzNjE5Mjc0ODQ5IgwK2%2FqccbxGxqpq0TAqjwXF6uud0Vn%2FRJMMlITRNXmF9c7g73811jpBUNAx65iO0nRxd81ojU1wppwn44WqQL174tjzLtTXM2L4kGXkD%2BQKXIZDITv6QSSkeohXndJBl57JvvlkF%2FnQiG%2Bi4llC%2B6X6YwR3WGE4n7k2jzMlzOMKbTPwwSWwPytsb0WAhUSeaqUxN81KSdSzbNe%2BdwllaJdvMd5qXar50dF1tz222Pz12Q%2B4D37XrboLRuL07NvSZ8GphuWZuHhIiQdY29OGjNSBp6x7oqBeOlZFz86pgVcRuwf6xuPcCheHx%2FcfCaIoFMtqGObiIyVZE0H92mCxgPzCzvTCvKXsddGNpMqiMxEeNdQCoRuxMUoWCZAtf2UC0o8oQg%2FtnxXCAgScNgNoi6bpN86VVbU3v2fD1F9U4nrqmLK65UJrWq9Gsi%2BC25xvOUhB82ovH9Wfi2fdp3U1z7rqZTxbgW7ovfw6CiXc8H1LNNvb1uMG0KN%2BmfzOa3j09RLahzF4er05O1QwXjm1QpkaqCjU%2Bq8FRy%2B6jS%2BxdGgyn3Rl83VH1KuSA1R21tzpjjDA%2FN5ZoaqITlVicT6P96n9ZsDBqviImSA3Jp0F1Z4r8tO1ThHuZ5OepfkKuzi99pFru7KkR2tBtqPJD2hKk%2Bsx25%2Fkf9t4%2BqrGTFZKTxzWes2haSYwtqQgwQw1Y%2B1hRe98i9%2Fy3yxYwg91G45uVdgz48dXCt1D%2FEIACPkaq3o8hEvaclWlduop2xZK89%2FOjMR2IF%2BccGo9t%2FtdU48q7IqG9mb%2FtShJqogFSD%2B6oh7nd32H3G0%2F3TUxnXwjt0oamOQ6Z1ShiwBxQi5KvaiGsan%2FBJbrgOVhlIrXPAfXAOy98irWX62csmII7lKx3zkkMM%2BdpbEGOrAB42QyywzBn0nTErayvfMM0tPiesP0PEqs7I%2FV%2BpNl0HhPpSQ6qcXHFP5L0al4jZUY4t2q9uj8UTGy0%2FQtSqjXYB1HqiPoGwmXecFCJLJ7wGSKFwqOAxwkRnXdbXVCE%2B328E3D3sbNspsCJpUxW%2F2BqgC29mQ8bLr3L%2FZW0Iy6O9OZwG7bVPLSAneIIRuDKaZXIOWEy1JPU3GgO2WMaCyFJ9TzurDDW2Bn6DudkMDerOI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=12373573dbd37e85c4ab1b32e35ccff225cb87d68b7cb8f7b8e96c1c4f3bbb64",
+      "url": "https://hackerone.com/sidefx",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzU1NTUy",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": 500,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-17T06:56:14.176Z",
+    "submitted_at": "2022-08-15T15:41:56.569Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzI0NjE3Mzc=",
+    "_id": "2461737",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjgxNjk0Ng==",
+      "name": "john cai",
+      "username": "john_cai11111111",
+      "__typename": "User"
+    },
+    "cve_ids": [],
+    "cwe": "Business Logic Errors",
+    "severity_rating": null,
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yNDYxNzM3",
+      "databaseId": "2461737",
+      "title": "Incorrect logic when buy one more license which may lead to extend the expire date of existing license",
+      "substate": "informative",
+      "url": "https://hackerone.com/reports/2461737",
+      "disclosed_at": "2024-04-16T07:41:26.935Z",
+      "report_generated_content": null,
+      "__typename": "Report"
+    },
+    "votes": 42,
+    "team": {
+      "handle": "portswigger",
+      "name": "PortSwigger Web Security",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/000/015/252/60e8778f4f1fee57ea2b164a7d2ec1e2d2dd7bc8_original./5136ed9b2fa7c4d4abbf39fb971047c62d98ec4740a88eb55d7e26373250a937",
+      "url": "https://hackerone.com/portswigger",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzE1MjUy",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-16T07:41:27.095Z",
+    "submitted_at": "2024-04-13T08:08:42.751Z",
+    "disclosed": true,
+    "has_collaboration": false
+  },
+  {
+    "__typename": "CompleteHacktivityReportDocument",
+    "id": "Z2lkOi8vaGFja2Vyb25lL0NvbXBsZXRlSGFja3Rpdml0eVJlcG9ydEluZGV4LzIyNDY1NzY=",
+    "_id": "2246576",
+    "reporter": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1VzZXIvMjA5OTEy",
+      "name": "Sudhanshu Rajbhar",
+      "username": "sudi",
+      "__typename": "User"
+    },
+    "cve_ids": [
+      "CVE-2024-1084"
+    ],
+    "cwe": "Cross-site Scripting (XSS) - Generic",
+    "severity_rating": "Medium",
+    "upvoted": null,
+    "public": true,
+    "report": {
+      "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydC8yMjQ2NTc2",
+      "databaseId": "2246576",
+      "title": "Self XSS in  Tag name pattern field /<username>/<reponame>/settings/tag_protection/new ",
+      "substate": "resolved",
+      "url": "https://hackerone.com/reports/2246576",
+      "disclosed_at": "2024-04-15T17:52:02.511Z",
+      "report_generated_content": {
+        "id": "Z2lkOi8vaGFja2Vyb25lL1JlcG9ydEdlbmVyYXRlZENvbnRlbnQvNzI5OQ==",
+        "hacktivity_summary": "A self-XSS vulnerability was discovered in the tag name pattern field of the tag protections UI in GitHub Enterprise Server. The vulnerability allowed a malicious website that required user interaction and social engineering to make changes to a user account via a CSP bypass with created CSRF tokens. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.12 and was fixed in all versions of 3.11.5, 3.10.7, 3.9.10, and 3.8.15.",
+        "__typename": "ReportGeneratedContent"
+      },
+      "__typename": "Report"
+    },
+    "votes": 57,
+    "team": {
+      "handle": "github",
+      "name": "GitHub",
+      "medium_profile_picture": "https://profile-photos.hackerone-user-content.com/variants/000/001/894/1de36b69ee85cb77397b0ee01ddbabd7ed47a3dd_original.jpg/f4a495c04fdb224bac8ec64587537e511aa8c4925e7955bee0a19e0ed7d891dc",
+      "url": "https://hackerone.com/github",
+      "id": "Z2lkOi8vaGFja2Vyb25lL0VuZ2FnZW1lbnRzOjpCdWdCb3VudHlQcm9ncmFtLzE4OTQ=",
+      "currency": "usd",
+      "__typename": "Team"
+    },
+    "total_awarded_amount": null,
+    "latest_disclosable_action": "Activities::ReportBecamePublic",
+    "latest_disclosable_activity_at": "2024-04-15T17:52:02.815Z",
+    "submitted_at": "2023-11-09T16:47:30.748Z",
+    "disclosed": true,
+    "has_collaboration": true
   }
 ]
